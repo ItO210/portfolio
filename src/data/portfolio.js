@@ -1,19 +1,19 @@
 export default [
     {
         title: "Terminal Website",
-        imgUrl: "",
+        imgUrl: "/assets/terminal-website.jpg",
         stack: ["HTML", "CSS", "JavaScript"],
         link: "",
     },
     {
         title: "Developer Portfolio",
-        imgUrl: "",
+        imgUrl: "/assets/dev-portfolio.jpg",
         stack: ["React", "Tailwind", "Vite"],
         link: "",
     },
     {
         title: "AI Shit",
-        imgUrl: "",
+        imgUrl: "/assets/ai-nerf-gun.jpg",
         stack: ["Python", "C++", "IDK"],
         link: "",
     },
