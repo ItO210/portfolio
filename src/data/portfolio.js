@@ -3,7 +3,7 @@ export default [
         title: "Terminal Website",
         imgUrl: "/assets/terminal-website.jpg",
         stack: ["HTML", "CSS", "JavaScript"],
-        link: "",
+        link: "https://google.com",
     },
     {
         title: "Developer Portfolio",
