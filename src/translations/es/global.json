@@ -1,5 +1,9 @@
 {
     "header":{
         "hello-world": "Hola Mundo"
+    },
+    "intro":{
+        "description": "Desarrollador de aplicaciones y paginas web",
+        "bio": "Esta es mi bio"
     }
 }
