@@ -9,7 +9,7 @@ function Contact() {
                     method="POST"
                     className="flex flex-col w-full md:w-7/12"
                 >
-                    <h1 className="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-xtone-900 dark:text-white pt-10">Contact</h1>
+                    <h1 className="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-neutral-900 dark:text-white pt-10">Contact</h1>
                     <input 
                         type="text" 
                         name="name"
@@ -30,7 +30,7 @@ function Contact() {
                     </textarea>
                     <button
                         type="submit"
-                        className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 dorp-shadow-md hover:stroke-white">
+                        className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-orange-500 to-pink-500 dorp-shadow-md hover:stroke-white">
                         Work With Me
                     </button>
                 </form>

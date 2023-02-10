@@ -1,4 +1,4 @@
-import DarkmodeButton from "./darkmodeButton";
+import DarkmodeButton from "./DarkmodeButton";
 import LanguageButton from "./LanguageButton";
 
 export default function Header() {

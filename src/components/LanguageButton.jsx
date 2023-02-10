@@ -71,7 +71,7 @@ function LanguageButton(){
     return(
         <button 
         type="button"
-        className="p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md text-white mx-2"
+        className="p-2 z-10 right-20 top-4 bg-violet-400 dark:bg-orange-400 text-lg p-1 rounded-md text-white mx-2"
         onClick={handleLangSwitch}>
             {globe}
         </button>
