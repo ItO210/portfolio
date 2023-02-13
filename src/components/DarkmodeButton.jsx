@@ -61,7 +61,7 @@ function DarkmodeButton(){
         <button 
         type="button"
         onClick={handleThemeSwitch}
-        className="p-2 z-10 right-20 top-4 bg-violet-400 dark:bg-orange-400 text-lg p-1 rounded-md mx-5">
+        className="bg-violet-400 dark:bg-orange-400 text-lg rounded-md mx-2">
             {theme === "dark" ? sun : moon}
         </button>
     )

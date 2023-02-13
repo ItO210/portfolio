@@ -2,14 +2,13 @@ import React from "react";
 
 function Contact() {
     return (
-        <div className="flex flex-col mb-10 mx-auto">
-            <div className="flex justify-center items-center">
+        <div className="flex flex-col h-screen justify-center items-center">
                 <form 
                     action="https://getform.io/f/9317dd34-bc8d-49b7-be12-5091a8ba3ab1"
                     method="POST"
-                    className="flex flex-col w-full md:w-7/12"
+                    className="flex flex-col w-1/2"
                 >
-                    <h1 className="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-neutral-900 dark:text-white pt-10">Contact</h1>
+                    <h1 className="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-neutral-900 dark:text-white">Contact</h1>
                     <input 
                         type="text" 
                         name="name"
@@ -34,7 +33,6 @@ function Contact() {
                         Work With Me
                     </button>
                 </form>
-            </div>
         </div>
     )
 }
