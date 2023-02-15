@@ -6,6 +6,7 @@ function PortfolioItem({title, imgUrl, stack, link}) {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
+        className="w-full bg-neutral-500"
         >
             <img src={imgUrl} alt="portfolio" className="w-full h-96 md:h-48 object-cover cursor-pointer"/>
             <div className="w-full">

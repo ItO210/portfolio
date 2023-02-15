@@ -1,83 +1,42 @@
-:root {
-    --swiper-image-ratio: 33.3%; /* ratio 16:9 = 56.25% */
-  
-    --swiper-width: 80%;
-    --swiper-inactive-scale: .50; /* makes the other slide smaller */
-    
-    /* responsive settings */
-    --swiper-mobile-width: 90%;
-    --swiper-mobile-inactive-scale: .95;
-  }
 
-  .swiper {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+.swiper {
+  width: 100% !important;
+  height: 30% !important;
+  overflow: visible !important;
 }
-  .swiper-slide {
-    position: relative;
-    width: var(--swiper-width);
-    opacity: .5;
-    transform: scale(.50);
-    transition: all .3s ease-in-out;
-    overflow: hidden;
-    border-radius: 0.4285rem;
-    margin: 0;
-  }
-  
-  .swiper-backface-hidden .swiper-slide {
-    transform: scale(.50) translateZ(0);
-  }
-          
-  .swiper-slide.swiper-slide-active {  
-    transform: scale(1) !important;
-    opacity: 1 !important;
-  }
-  
-  .swiper-backface-hidden .swiper-slide.swiper-slide-active {
-    transform: scale(1) translateZ(0) !important;
-  }
-  
-  .swiper-image {
-    position: relative;
-    width: 100%;
-    padding-top: var(--swiper-image-ratio);
-  }
-      
-  .swiper-image .image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #929ec9;
-  }
-  
-  .swiper-button-next,
-  .swiper-button-prev {
-    padding: 8px;
-    width: 12px;
-    height: 12px;
-    margin-top: 0;
-    background-color: rgba(0, 0, 0, .4);
-    border-radius: 50%;
-  }
-  
-  .swiper-button-next::after,
-  .swiper-button-prev::after {
-    color: #fff;
-    font-size: 12px;
-  }
-  
-  .swiper-button-next {
-    transform: translate(50%, -50%);
-    right: calc((100% - var(--swiper-width)) / 2);
-  }
-  
-  .swiper-button-prev {
-    transform: translate(-50%, -50%);
-    left: calc((100% - var(--swiper-width)) / 2);
-  }
-  
+
+.swiper-slide {
+  text-align: center !important;
+  font-size: 18px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0px !important;
+  transition: all .3s ease !important;
+  transform: scale(1) !important;
+  opacity: .1;
+}
+
+.swiper-slide-active {
+  transform: scale(2) !important;
+  z-index: 2 !important;
+  opacity: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 8px;
+  width: 12px;
+  height: 12px;
+  margin-top: 0;
+  background-color: rgba(0, 0, 0, .4);
+  border-radius: 50%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #fff;
+  font-size: 12px;
+}
+
+
