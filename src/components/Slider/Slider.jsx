@@ -1,9 +1,10 @@
 
 import React from "react";
+import Portfolio from "./Slides/Portfolio";
 // Import Swiper React components
 import { Swiper, SwiperSlide} from "swiper/react";
-import portfolio from "../data/portfolio";
-import PortfolioItem from "./PortfolioItem";
+import portfolio from "../../data/portfolio";
+import PortfolioItem from "../PortfolioItem";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -31,7 +32,7 @@ export default function Slider() {
                         slidesPerView={3}
                         spaceBetween={0}
                         loop={true}
-                        navigation
+                        navigation={true}
                         modules={[Keyboard, Navigation, Autoplay]}
                         keyboard={{
                             enabled: true
@@ -42,12 +43,12 @@ export default function Slider() {
                         }}
                         centeredSlides={true}
                     >
-                        <SwiperSlide>{slides[0]}</SwiperSlide>
-                        <SwiperSlide>{slides[1]}</SwiperSlide>
-                        <SwiperSlide>{slides[2]}</SwiperSlide>
-                        <SwiperSlide>{slides[0]}</SwiperSlide>
-                        <SwiperSlide>{slides[1]}</SwiperSlide>
-                        <SwiperSlide>{slides[2]}</SwiperSlide>
+                        <SwiperSlide>{Portfolio}</SwiperSlide>
+                        <SwiperSlide>{Portfolio}</SwiperSlide>
+                        <SwiperSlide>{Portfolio}</SwiperSlide>
+                        <SwiperSlide>{Portfolio}</SwiperSlide>
+                        <SwiperSlide>{Portfolio}</SwiperSlide>
+                        <SwiperSlide>{Portfolio}</SwiperSlide>
                     </Swiper>
             </div>
         </div>
