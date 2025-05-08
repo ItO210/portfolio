@@ -1,16 +1,27 @@
 import React from "react";
 
 function Portfolio() {
-    return (
-        <div className="relative w-full h-full group">
-            <img src="https://www.kindacode.com/wp-content/uploads/2022/06/big-boss.jpeg" className="w-full h-full cursor-pointer"/>
-            <div className="absolute h-full w-full bottom-0 left-0 right-0 group-hover:bg-black opacity-80 flex flex-col items-center justify-center transition-all transition-duration:500ms">
-                <h3 className="text-xl hover:text-red-500 text-white hidden group-hover:block opacity-100">
-                    Hey, I Am The Big Boss</h3>
-                <p className="text-sm text-transparent group-hover:text-white opacity-100">Some description text. Some dummy text here. Welcome to KindaCode.com</p>
-            </div>
-        </div>
-    )
+  return (
+    <div className="relative w-full h-64 group">
+      <img
+        src="https://www.kindacode.com/wp-content/uploads/2022/06/big-boss.jpeg"
+        className="w-full h-full object-cover cursor-pointer"
+      />
+      <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-500 opacity-100 group-hover:opacity-0">
+        <h3 className="text-xl text-white text-center px-2">
+          This is supposed to be text for the project.
+        </h3>
+      </div>
+      <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-80 transition-opacity duration-500 opacity-0 group-hover:opacity-100">
+        <h3 className="text-xl text-white hover:text-red-500 text-center px-2">
+          Hey, I Am The Big Boss
+        </h3>
+        <p className="text-sm text-white mt-2 px-2 text-center">
+          Some description text.
+        </p>
+      </div>
+    </div>
+  );
 }
 
 export default Portfolio;

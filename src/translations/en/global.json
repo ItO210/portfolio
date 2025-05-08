@@ -1,9 +1,10 @@
 {
-    "header":{
-        "hello-world": "Hello world"
-    },
-    "intro":{
-        "description": "Mobile and Web app developer",
-        "bio": "This is my bio"
-    }
+  "header": {
+    "hello-world": "Hello world"
+  },
+  "intro": {
+    "hi": "Hi!",
+    "name": "Im Carlos.",
+    "bio": "Computer Science and Technology student at Tecnológico de Monterrey. Passionate about learning new technologies, building things, breaking them (sometimes accidentally), and learning how to make them better."
+  }
 }
